@@ -1,6 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    width: 600px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
 .line{
+    justify-content: center;
     display: flex;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 .green, .orange, .white{
     padding: 15px;
